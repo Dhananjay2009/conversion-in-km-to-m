@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main()
+{ 
+    float km,m;
+
+    
+    printf("Enter value to converse km To meters\n");
+    scanf("%f", &km);
+    
+    m = km * 1000;
+
+    printf("the conversion of km to meters is %f\n", m);
+
+    return 0;
+}
